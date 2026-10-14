@@ -1,0 +1,4274 @@
+{
+ "building": "Jain Global Campus - Faculty of Engineering",
+ "meters_per_pixel": 0.07,
+ "floors": [
+  {
+   "id": "F0",
+   "name": "Ground Floor",
+   "level": 0,
+   "width": 1400,
+   "height": 1400,
+   "centre": [
+    700.0,
+    700.0
+   ]
+  },
+  {
+   "id": "F1",
+   "name": "First Floor",
+   "level": 1,
+   "width": 1400,
+   "height": 1400,
+   "centre": [
+    700.0,
+    700.0
+   ]
+  },
+  {
+   "id": "F2",
+   "name": "Second Floor",
+   "level": 2,
+   "width": 1400,
+   "height": 1400,
+   "centre": [
+    700.0,
+    700.0
+   ]
+  },
+  {
+   "id": "F3",
+   "name": "Third Floor",
+   "level": 3,
+   "width": 1400,
+   "height": 1400,
+   "centre": [
+    700.0,
+    700.0
+   ]
+  },
+  {
+   "id": "F4",
+   "name": "Fourth Floor",
+   "level": 4,
+   "width": 1400,
+   "height": 1400,
+   "centre": [
+    700.0,
+    700.0
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "id": "F0-J00",
+   "floor": "F0",
+   "x": 787.8,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-008",
+   "floor": "F0",
+   "x": 758.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "IQAC",
+   "aliases": [
+    "008"
+   ]
+  },
+  {
+   "id": "F0-013",
+   "floor": "F0",
+   "x": 808.3,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Examination Center / Office - 3",
+   "aliases": [
+    "013"
+   ]
+  },
+  {
+   "id": "F0-J01",
+   "floor": "F0",
+   "x": 950.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SOFA_HALL",
+   "floor": "F0",
+   "x": 866.7,
+   "y": 450.6,
+   "kind": "landmark",
+   "name": "Sofa Hall",
+   "aliases": [
+    "SOFA HALL"
+   ]
+  },
+  {
+   "id": "F0-001",
+   "floor": "F0",
+   "x": 1008.3,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Administrative Office",
+   "aliases": [
+    "001"
+   ]
+  },
+  {
+   "id": "F0-J02",
+   "floor": "F0",
+   "x": 1074.2,
+   "y": 450.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-007",
+   "floor": "F0",
+   "x": 949.4,
+   "y": 533.3,
+   "kind": "room",
+   "name": "Vice President - JGI",
+   "aliases": [
+    "007"
+   ]
+  },
+  {
+   "id": "F0-002",
+   "floor": "F0",
+   "x": 1161.5,
+   "y": 391.7,
+   "kind": "room",
+   "name": "Seminar Hall",
+   "aliases": [
+    "002"
+   ]
+  },
+  {
+   "id": "F0-J03",
+   "floor": "F0",
+   "x": 1141.4,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-006",
+   "floor": "F0",
+   "x": 994.2,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Office - 2",
+   "aliases": [
+    "006"
+   ]
+  },
+  {
+   "id": "F0-003",
+   "floor": "F0",
+   "x": 1244.3,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Office - 1",
+   "aliases": [
+    "003"
+   ]
+  },
+  {
+   "id": "F0-J04",
+   "floor": "F0",
+   "x": 1141.4,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-005",
+   "floor": "F0",
+   "x": 994.2,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Director - School of Computer Science",
+   "aliases": [
+    "005"
+   ]
+  },
+  {
+   "id": "F0-004",
+   "floor": "F0",
+   "x": 1244.3,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Placement Office",
+   "aliases": [
+    "004"
+   ]
+  },
+  {
+   "id": "F0-J14",
+   "floor": "F0",
+   "x": 450.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-010",
+   "floor": "F0",
+   "x": 533.3,
+   "y": 450.6,
+   "kind": "room",
+   "name": "Server Room",
+   "aliases": [
+    "010"
+   ]
+  },
+  {
+   "id": "F0-011",
+   "floor": "F0",
+   "x": 391.7,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Chemistry Lab",
+   "aliases": [
+    "011"
+   ]
+  },
+  {
+   "id": "F0-J15",
+   "floor": "F0",
+   "x": 612.2,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-009",
+   "floor": "F0",
+   "x": 641.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Director - FET",
+   "aliases": [
+    "009"
+   ]
+  },
+  {
+   "id": "F0-012",
+   "floor": "F0",
+   "x": 591.7,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Physics Lab",
+   "aliases": [
+    "012"
+   ]
+  },
+  {
+   "id": "F0-J-SP",
+   "floor": "F0",
+   "x": 700.0,
+   "y": 250.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SP",
+   "floor": "F0",
+   "x": 700.0,
+   "y": 272.0,
+   "kind": "stair",
+   "name": "Stairs SP",
+   "group": "SP",
+   "side": "inner"
+  },
+  {
+   "id": "F0-J-SQ",
+   "floor": "F0",
+   "x": 1115.7,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SQ",
+   "floor": "F0",
+   "x": 1095.4,
+   "y": 536.2,
+   "kind": "stair",
+   "name": "Stairs SQ",
+   "group": "SQ",
+   "side": "inner"
+  },
+  {
+   "id": "F0-J-SC",
+   "floor": "F0",
+   "x": 1115.7,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SC",
+   "floor": "F0",
+   "x": 1136.1,
+   "y": 880.6,
+   "kind": "stair",
+   "name": "Stairs SC",
+   "group": "SC",
+   "side": "outer"
+  },
+  {
+   "id": "F0-J-SD",
+   "floor": "F0",
+   "x": 1018.2,
+   "y": 1018.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SD",
+   "floor": "F0",
+   "x": 1033.8,
+   "y": 1033.8,
+   "kind": "stair",
+   "name": "Stairs SD",
+   "group": "SD",
+   "side": "outer"
+  },
+  {
+   "id": "F0-J-SA",
+   "floor": "F0",
+   "x": 284.3,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SA",
+   "floor": "F0",
+   "x": 263.9,
+   "y": 519.4,
+   "kind": "stair",
+   "name": "Stairs SA",
+   "group": "SA",
+   "side": "outer"
+  },
+  {
+   "id": "F0-J-SB",
+   "floor": "F0",
+   "x": 381.8,
+   "y": 381.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F0-SB",
+   "floor": "F0",
+   "x": 366.2,
+   "y": 366.2,
+   "kind": "stair",
+   "name": "Stairs SB",
+   "group": "SB",
+   "side": "outer"
+  },
+  {
+   "id": "F0-J-LIFT",
+   "floor": "F0",
+   "x": 1074.2,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "LG",
+   "floor": "F0",
+   "x": 1092.5,
+   "y": 962.2,
+   "kind": "lift",
+   "name": "Lift (LG)",
+   "group": "LIFT",
+   "side": "outer"
+  },
+  {
+   "id": "F1-J00",
+   "floor": "F1",
+   "x": 787.8,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-112",
+   "floor": "F1",
+   "x": 758.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "112"
+   ]
+  },
+  {
+   "id": "F1-126",
+   "floor": "F1",
+   "x": 808.3,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Marvin Minsky Lab / Guido van Rossum Lab",
+   "aliases": [
+    "126"
+   ]
+  },
+  {
+   "id": "F1-J01",
+   "floor": "F1",
+   "x": 950.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-1ST_FLOOR_HALL",
+   "floor": "F1",
+   "x": 866.7,
+   "y": 450.6,
+   "kind": "landmark",
+   "name": "1st Floor Hall",
+   "aliases": [
+    "1ST FLOOR HALL"
+   ]
+  },
+  {
+   "id": "F1-127",
+   "floor": "F1",
+   "x": 1008.3,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "127"
+   ]
+  },
+  {
+   "id": "F1-J02",
+   "floor": "F1",
+   "x": 1074.2,
+   "y": 450.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-101",
+   "floor": "F1",
+   "x": 949.4,
+   "y": 533.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "101"
+   ]
+  },
+  {
+   "id": "F1-113",
+   "floor": "F1",
+   "x": 1161.5,
+   "y": 391.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "113"
+   ]
+  },
+  {
+   "id": "F1-J03",
+   "floor": "F1",
+   "x": 1141.4,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-102",
+   "floor": "F1",
+   "x": 994.2,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "102"
+   ]
+  },
+  {
+   "id": "F1-114",
+   "floor": "F1",
+   "x": 1244.3,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "114"
+   ]
+  },
+  {
+   "id": "F1-J04",
+   "floor": "F1",
+   "x": 1141.4,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-103",
+   "floor": "F1",
+   "x": 994.2,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "103"
+   ]
+  },
+  {
+   "id": "F1-115",
+   "floor": "F1",
+   "x": 1244.3,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "115"
+   ]
+  },
+  {
+   "id": "F1-J06",
+   "floor": "F1",
+   "x": 950.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-104",
+   "floor": "F1",
+   "x": 866.7,
+   "y": 949.4,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "104"
+   ]
+  },
+  {
+   "id": "F1-116",
+   "floor": "F1",
+   "x": 1008.3,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "116"
+   ]
+  },
+  {
+   "id": "F1-J07",
+   "floor": "F1",
+   "x": 787.8,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-105",
+   "floor": "F1",
+   "x": 758.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Name not listed on board",
+   "aliases": [
+    "105"
+   ]
+  },
+  {
+   "id": "F1-117",
+   "floor": "F1",
+   "x": 808.3,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Geo Technical Lab",
+   "aliases": [
+    "117"
+   ]
+  },
+  {
+   "id": "F1-J08",
+   "floor": "F1",
+   "x": 612.2,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-106",
+   "floor": "F1",
+   "x": 641.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "106"
+   ]
+  },
+  {
+   "id": "F1-118",
+   "floor": "F1",
+   "x": 591.7,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Fluid Mechanics & Machinery Lab",
+   "aliases": [
+    "118"
+   ]
+  },
+  {
+   "id": "F1-J09",
+   "floor": "F1",
+   "x": 450.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-1ST_FLOOR_CORRIDOR",
+   "floor": "F1",
+   "x": 533.3,
+   "y": 949.4,
+   "kind": "landmark",
+   "name": "1st Floor Corridor",
+   "aliases": [
+    "1ST FLOOR CORRIDOR"
+   ]
+  },
+  {
+   "id": "F1-119+120",
+   "floor": "F1",
+   "x": 391.7,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Heat & Mass Transfer Lab / FESEM-GCMS-XRD Lab / Environmental Lab",
+   "aliases": [
+    "119+120",
+    "119",
+    "120"
+   ]
+  },
+  {
+   "id": "F1-J10",
+   "floor": "F1",
+   "x": 325.8,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-107",
+   "floor": "F1",
+   "x": 450.6,
+   "y": 866.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "107"
+   ]
+  },
+  {
+   "id": "F1-121",
+   "floor": "F1",
+   "x": 238.5,
+   "y": 1008.3,
+   "kind": "room",
+   "name": "Material Testing Lab",
+   "aliases": [
+    "121"
+   ]
+  },
+  {
+   "id": "F1-J11",
+   "floor": "F1",
+   "x": 258.6,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-108",
+   "floor": "F1",
+   "x": 405.8,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "108"
+   ]
+  },
+  {
+   "id": "F1-122",
+   "floor": "F1",
+   "x": 155.7,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Machine Shop",
+   "aliases": [
+    "122"
+   ]
+  },
+  {
+   "id": "F1-J12",
+   "floor": "F1",
+   "x": 258.6,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-109",
+   "floor": "F1",
+   "x": 405.8,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "109"
+   ]
+  },
+  {
+   "id": "F1-123",
+   "floor": "F1",
+   "x": 155.7,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Relay & High Voltage Lab",
+   "aliases": [
+    "123"
+   ]
+  },
+  {
+   "id": "F1-J14",
+   "floor": "F1",
+   "x": 450.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-110",
+   "floor": "F1",
+   "x": 533.3,
+   "y": 450.6,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "110"
+   ]
+  },
+  {
+   "id": "F1-124",
+   "floor": "F1",
+   "x": 391.7,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Grace Hopper Lab / Margaret Hamilton Lab",
+   "aliases": [
+    "124"
+   ]
+  },
+  {
+   "id": "F1-J15",
+   "floor": "F1",
+   "x": 612.2,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-111",
+   "floor": "F1",
+   "x": 641.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "111"
+   ]
+  },
+  {
+   "id": "F1-125",
+   "floor": "F1",
+   "x": 591.7,
+   "y": 155.7,
+   "kind": "room",
+   "name": "DevOps / Software Design & Testing Lab / John McCarthy Lab",
+   "aliases": [
+    "125"
+   ]
+  },
+  {
+   "id": "F1-J-SP",
+   "floor": "F1",
+   "x": 700.0,
+   "y": 250.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SP",
+   "floor": "F1",
+   "x": 700.0,
+   "y": 272.0,
+   "kind": "stair",
+   "name": "Stairs SP",
+   "group": "SP",
+   "side": "inner"
+  },
+  {
+   "id": "F1-J-SQ",
+   "floor": "F1",
+   "x": 1115.7,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SQ",
+   "floor": "F1",
+   "x": 1095.4,
+   "y": 536.2,
+   "kind": "stair",
+   "name": "Stairs SQ",
+   "group": "SQ",
+   "side": "inner"
+  },
+  {
+   "id": "F1-J-SC",
+   "floor": "F1",
+   "x": 1115.7,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SC",
+   "floor": "F1",
+   "x": 1136.1,
+   "y": 880.6,
+   "kind": "stair",
+   "name": "Stairs SC",
+   "group": "SC",
+   "side": "outer"
+  },
+  {
+   "id": "F1-J-SD",
+   "floor": "F1",
+   "x": 1018.2,
+   "y": 1018.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SD",
+   "floor": "F1",
+   "x": 1033.8,
+   "y": 1033.8,
+   "kind": "stair",
+   "name": "Stairs SD",
+   "group": "SD",
+   "side": "outer"
+  },
+  {
+   "id": "F1-J-SX",
+   "floor": "F1",
+   "x": 700.0,
+   "y": 1150.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SX",
+   "floor": "F1",
+   "x": 700.0,
+   "y": 1128.0,
+   "kind": "stair",
+   "name": "Stairs SX",
+   "group": "SX",
+   "side": "inner"
+  },
+  {
+   "id": "F1-J-SY",
+   "floor": "F1",
+   "x": 284.3,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SY",
+   "floor": "F1",
+   "x": 304.6,
+   "y": 863.8,
+   "kind": "stair",
+   "name": "Stairs SY",
+   "group": "SY",
+   "side": "inner"
+  },
+  {
+   "id": "F1-J-SA",
+   "floor": "F1",
+   "x": 284.3,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SA",
+   "floor": "F1",
+   "x": 263.9,
+   "y": 519.4,
+   "kind": "stair",
+   "name": "Stairs SA",
+   "group": "SA",
+   "side": "outer"
+  },
+  {
+   "id": "F1-J-SB",
+   "floor": "F1",
+   "x": 381.8,
+   "y": 381.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F1-SB",
+   "floor": "F1",
+   "x": 366.2,
+   "y": 366.2,
+   "kind": "stair",
+   "name": "Stairs SB",
+   "group": "SB",
+   "side": "outer"
+  },
+  {
+   "id": "F1-J-LIFT",
+   "floor": "F1",
+   "x": 1074.2,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "L1",
+   "floor": "F1",
+   "x": 1092.5,
+   "y": 962.2,
+   "kind": "lift",
+   "name": "Lift (L1)",
+   "group": "LIFT",
+   "side": "outer"
+  },
+  {
+   "id": "F2-J00",
+   "floor": "F2",
+   "x": 787.8,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-212",
+   "floor": "F2",
+   "x": 758.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "212"
+   ]
+  },
+  {
+   "id": "F2-226",
+   "floor": "F2",
+   "x": 808.3,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Program Head Cabins",
+   "aliases": [
+    "226"
+   ]
+  },
+  {
+   "id": "F2-J01",
+   "floor": "F2",
+   "x": 950.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-2ND_FLOOR_HALL",
+   "floor": "F2",
+   "x": 866.7,
+   "y": 450.6,
+   "kind": "landmark",
+   "name": "2nd Floor Hall",
+   "aliases": [
+    "2ND FLOOR HALL"
+   ]
+  },
+  {
+   "id": "F2-227",
+   "floor": "F2",
+   "x": 1008.3,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "227"
+   ]
+  },
+  {
+   "id": "F2-J02",
+   "floor": "F2",
+   "x": 1074.2,
+   "y": 450.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-201",
+   "floor": "F2",
+   "x": 949.4,
+   "y": 533.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "201"
+   ]
+  },
+  {
+   "id": "F2-213",
+   "floor": "F2",
+   "x": 1161.5,
+   "y": 391.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "213"
+   ]
+  },
+  {
+   "id": "F2-J03",
+   "floor": "F2",
+   "x": 1141.4,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-202",
+   "floor": "F2",
+   "x": 994.2,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "202"
+   ]
+  },
+  {
+   "id": "F2-214A/B/C",
+   "floor": "F2",
+   "x": 1244.3,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "214A/B/C",
+    "214",
+    "214A",
+    "214B",
+    "214C"
+   ]
+  },
+  {
+   "id": "F2-J04",
+   "floor": "F2",
+   "x": 1141.4,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-203",
+   "floor": "F2",
+   "x": 994.2,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "203"
+   ]
+  },
+  {
+   "id": "F2-215A/B/C",
+   "floor": "F2",
+   "x": 1244.3,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "215A/B/C",
+    "215",
+    "215A",
+    "215B",
+    "215C"
+   ]
+  },
+  {
+   "id": "F2-J06",
+   "floor": "F2",
+   "x": 950.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-204",
+   "floor": "F2",
+   "x": 866.7,
+   "y": 949.4,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "204"
+   ]
+  },
+  {
+   "id": "F2-216A/B",
+   "floor": "F2",
+   "x": 1008.3,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Lab",
+   "aliases": [
+    "216A/B",
+    "216",
+    "216A",
+    "216B"
+   ]
+  },
+  {
+   "id": "F2-J07",
+   "floor": "F2",
+   "x": 787.8,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-205",
+   "floor": "F2",
+   "x": 758.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "205"
+   ]
+  },
+  {
+   "id": "F2-217A/B",
+   "floor": "F2",
+   "x": 808.3,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Research Lab / Faculty Room",
+   "aliases": [
+    "217A/B",
+    "217",
+    "217A",
+    "217B"
+   ]
+  },
+  {
+   "id": "F2-J08",
+   "floor": "F2",
+   "x": 612.2,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-206",
+   "floor": "F2",
+   "x": 641.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "206"
+   ]
+  },
+  {
+   "id": "F2-219A/B/C",
+   "floor": "F2",
+   "x": 591.7,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "NetSphere Lab / Kevin Ashton Lab / Apple iOS Lab",
+   "aliases": [
+    "219A/B/C",
+    "219",
+    "219A",
+    "219B",
+    "219C"
+   ]
+  },
+  {
+   "id": "F2-J09",
+   "floor": "F2",
+   "x": 450.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-LIBRARY_CORRIDOR",
+   "floor": "F2",
+   "x": 533.3,
+   "y": 949.4,
+   "kind": "landmark",
+   "name": "Library Corridor",
+   "aliases": [
+    "LIBRARY CORRIDOR"
+   ]
+  },
+  {
+   "id": "F2-LIBRARY_2ND_FLOOR",
+   "floor": "F2",
+   "x": 391.7,
+   "y": 1161.5,
+   "kind": "landmark",
+   "name": "Library",
+   "aliases": [
+    "LIBRARY (2ND FLOOR)"
+   ]
+  },
+  {
+   "id": "F2-J10",
+   "floor": "F2",
+   "x": 325.8,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-207",
+   "floor": "F2",
+   "x": 450.6,
+   "y": 866.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "207"
+   ]
+  },
+  {
+   "id": "F2-221",
+   "floor": "F2",
+   "x": 238.5,
+   "y": 1008.3,
+   "kind": "room",
+   "name": "Data Analytics & Learning Lab",
+   "aliases": [
+    "221"
+   ]
+  },
+  {
+   "id": "F2-J11",
+   "floor": "F2",
+   "x": 258.6,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-208",
+   "floor": "F2",
+   "x": 405.8,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "208"
+   ]
+  },
+  {
+   "id": "F2-222",
+   "floor": "F2",
+   "x": 155.7,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Workshop Practice Lab",
+   "aliases": [
+    "222"
+   ]
+  },
+  {
+   "id": "F2-J12",
+   "floor": "F2",
+   "x": 258.6,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-209",
+   "floor": "F2",
+   "x": 405.8,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "209"
+   ]
+  },
+  {
+   "id": "F2-223",
+   "floor": "F2",
+   "x": 155.7,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Membrane Lab / Bio-inspired Nanoplasmonics / Thermochromic Materials Lab",
+   "aliases": [
+    "223"
+   ]
+  },
+  {
+   "id": "F2-J14",
+   "floor": "F2",
+   "x": 450.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-210",
+   "floor": "F2",
+   "x": 533.3,
+   "y": 450.6,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "210"
+   ]
+  },
+  {
+   "id": "F2-224A/B",
+   "floor": "F2",
+   "x": 391.7,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Alan Turing Lab / Sir Tim Berners-Lee Lab",
+   "aliases": [
+    "224A/B",
+    "224",
+    "224A",
+    "224B"
+   ]
+  },
+  {
+   "id": "F2-J15",
+   "floor": "F2",
+   "x": 612.2,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-211",
+   "floor": "F2",
+   "x": 641.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "211"
+   ]
+  },
+  {
+   "id": "F2-225A/B",
+   "floor": "F2",
+   "x": 591.7,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Mobile Application Development Lab / Cloud Information Security Lab",
+   "aliases": [
+    "225A/B",
+    "225",
+    "225A",
+    "225B"
+   ]
+  },
+  {
+   "id": "F2-J-SP",
+   "floor": "F2",
+   "x": 700.0,
+   "y": 250.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SP",
+   "floor": "F2",
+   "x": 700.0,
+   "y": 272.0,
+   "kind": "stair",
+   "name": "Stairs SP",
+   "group": "SP",
+   "side": "inner"
+  },
+  {
+   "id": "F2-J-SQ",
+   "floor": "F2",
+   "x": 1115.7,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SQ",
+   "floor": "F2",
+   "x": 1095.4,
+   "y": 536.2,
+   "kind": "stair",
+   "name": "Stairs SQ",
+   "group": "SQ",
+   "side": "inner"
+  },
+  {
+   "id": "F2-J-SC",
+   "floor": "F2",
+   "x": 1115.7,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SC",
+   "floor": "F2",
+   "x": 1136.1,
+   "y": 880.6,
+   "kind": "stair",
+   "name": "Stairs SC",
+   "group": "SC",
+   "side": "outer"
+  },
+  {
+   "id": "F2-J-SD",
+   "floor": "F2",
+   "x": 1018.2,
+   "y": 1018.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SD",
+   "floor": "F2",
+   "x": 1033.8,
+   "y": 1033.8,
+   "kind": "stair",
+   "name": "Stairs SD",
+   "group": "SD",
+   "side": "outer"
+  },
+  {
+   "id": "F2-J-SX",
+   "floor": "F2",
+   "x": 700.0,
+   "y": 1150.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SX",
+   "floor": "F2",
+   "x": 700.0,
+   "y": 1128.0,
+   "kind": "stair",
+   "name": "Stairs SX",
+   "group": "SX",
+   "side": "inner"
+  },
+  {
+   "id": "F2-J-SY",
+   "floor": "F2",
+   "x": 284.3,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SY",
+   "floor": "F2",
+   "x": 304.6,
+   "y": 863.8,
+   "kind": "stair",
+   "name": "Stairs SY",
+   "group": "SY",
+   "side": "inner"
+  },
+  {
+   "id": "F2-J-SA",
+   "floor": "F2",
+   "x": 284.3,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SA",
+   "floor": "F2",
+   "x": 263.9,
+   "y": 519.4,
+   "kind": "stair",
+   "name": "Stairs SA",
+   "group": "SA",
+   "side": "outer"
+  },
+  {
+   "id": "F2-J-SB",
+   "floor": "F2",
+   "x": 381.8,
+   "y": 381.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F2-SB",
+   "floor": "F2",
+   "x": 366.2,
+   "y": 366.2,
+   "kind": "stair",
+   "name": "Stairs SB",
+   "group": "SB",
+   "side": "outer"
+  },
+  {
+   "id": "F2-J-LIFT",
+   "floor": "F2",
+   "x": 1074.2,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "L2",
+   "floor": "F2",
+   "x": 1092.5,
+   "y": 962.2,
+   "kind": "lift",
+   "name": "Lift (L2)",
+   "group": "LIFT",
+   "side": "outer"
+  },
+  {
+   "id": "F3-J00",
+   "floor": "F3",
+   "x": 787.8,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-312",
+   "floor": "F3",
+   "x": 758.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "312"
+   ]
+  },
+  {
+   "id": "F3-326A/B",
+   "floor": "F3",
+   "x": 808.3,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "326A/B",
+    "326",
+    "326A",
+    "326B"
+   ]
+  },
+  {
+   "id": "F3-J01",
+   "floor": "F3",
+   "x": 950.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-3RD_FLOOR_HALL",
+   "floor": "F3",
+   "x": 866.7,
+   "y": 450.6,
+   "kind": "landmark",
+   "name": "3rd Floor Hall",
+   "aliases": [
+    "3RD FLOOR HALL"
+   ]
+  },
+  {
+   "id": "F3-327A/B",
+   "floor": "F3",
+   "x": 1008.3,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "327A/B",
+    "327",
+    "327A",
+    "327B"
+   ]
+  },
+  {
+   "id": "F3-J02",
+   "floor": "F3",
+   "x": 1074.2,
+   "y": 450.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-301",
+   "floor": "F3",
+   "x": 949.4,
+   "y": 533.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "301"
+   ]
+  },
+  {
+   "id": "F3-313A/B",
+   "floor": "F3",
+   "x": 1161.5,
+   "y": 391.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "313A/B",
+    "313",
+    "313A",
+    "313B"
+   ]
+  },
+  {
+   "id": "F3-J03",
+   "floor": "F3",
+   "x": 1141.4,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-302",
+   "floor": "F3",
+   "x": 994.2,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "302"
+   ]
+  },
+  {
+   "id": "F3-314A/B",
+   "floor": "F3",
+   "x": 1244.3,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "314A/B",
+    "314",
+    "314A",
+    "314B"
+   ]
+  },
+  {
+   "id": "F3-J04",
+   "floor": "F3",
+   "x": 1141.4,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-303",
+   "floor": "F3",
+   "x": 994.2,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "303"
+   ]
+  },
+  {
+   "id": "F3-315A/B",
+   "floor": "F3",
+   "x": 1244.3,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Fitness Center / Programming Lab",
+   "aliases": [
+    "315A/B",
+    "315",
+    "315A",
+    "315B"
+   ]
+  },
+  {
+   "id": "F3-J06",
+   "floor": "F3",
+   "x": 950.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-304",
+   "floor": "F3",
+   "x": 866.7,
+   "y": 949.4,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "304"
+   ]
+  },
+  {
+   "id": "F3-316A/B",
+   "floor": "F3",
+   "x": 1008.3,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Programming Lab / Lecture Hall",
+   "aliases": [
+    "316A/B",
+    "316",
+    "316A",
+    "316B"
+   ]
+  },
+  {
+   "id": "F3-J07",
+   "floor": "F3",
+   "x": 787.8,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-305",
+   "floor": "F3",
+   "x": 758.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "305"
+   ]
+  },
+  {
+   "id": "F3-317A/B",
+   "floor": "F3",
+   "x": 808.3,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "317A/B",
+    "317",
+    "317A",
+    "317B"
+   ]
+  },
+  {
+   "id": "F3-J08",
+   "floor": "F3",
+   "x": 612.2,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-306",
+   "floor": "F3",
+   "x": 641.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "306"
+   ]
+  },
+  {
+   "id": "F3-318A/B",
+   "floor": "F3",
+   "x": 591.7,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Store",
+   "aliases": [
+    "318A/B",
+    "318",
+    "318A",
+    "318B"
+   ]
+  },
+  {
+   "id": "F3-J09",
+   "floor": "F3",
+   "x": 450.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-LIB_SEATING_HALL",
+   "floor": "F3",
+   "x": 533.3,
+   "y": 949.4,
+   "kind": "landmark",
+   "name": "Library Seating Hall",
+   "aliases": [
+    "LIB SEATING HALL"
+   ]
+  },
+  {
+   "id": "F3-LIBRARY_3RD_FLOOR",
+   "floor": "F3",
+   "x": 391.7,
+   "y": 1161.5,
+   "kind": "landmark",
+   "name": "Library",
+   "aliases": [
+    "LIBRARY (3RD FLOOR)"
+   ]
+  },
+  {
+   "id": "F3-J10",
+   "floor": "F3",
+   "x": 325.8,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-307",
+   "floor": "F3",
+   "x": 450.6,
+   "y": 866.7,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "307"
+   ]
+  },
+  {
+   "id": "F3-321",
+   "floor": "F3",
+   "x": 238.5,
+   "y": 1008.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "321"
+   ]
+  },
+  {
+   "id": "F3-J11",
+   "floor": "F3",
+   "x": 258.6,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-308",
+   "floor": "F3",
+   "x": 405.8,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "308"
+   ]
+  },
+  {
+   "id": "F3-322A/B/C",
+   "floor": "F3",
+   "x": 155.7,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "322A/B/C",
+    "322",
+    "322A",
+    "322B",
+    "322C"
+   ]
+  },
+  {
+   "id": "F3-J12",
+   "floor": "F3",
+   "x": 258.6,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-309",
+   "floor": "F3",
+   "x": 405.8,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "309"
+   ]
+  },
+  {
+   "id": "F3-323",
+   "floor": "F3",
+   "x": 155.7,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "323"
+   ]
+  },
+  {
+   "id": "F3-J14",
+   "floor": "F3",
+   "x": 450.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-310",
+   "floor": "F3",
+   "x": 533.3,
+   "y": 450.6,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "310"
+   ]
+  },
+  {
+   "id": "F3-324A/B",
+   "floor": "F3",
+   "x": 391.7,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Network Database Lab / Faculty Room",
+   "aliases": [
+    "324A/B",
+    "324",
+    "324A",
+    "324B"
+   ]
+  },
+  {
+   "id": "F3-J15",
+   "floor": "F3",
+   "x": 612.2,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-311",
+   "floor": "F3",
+   "x": 641.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "311"
+   ]
+  },
+  {
+   "id": "F3-325",
+   "floor": "F3",
+   "x": 591.7,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Faculty Room",
+   "aliases": [
+    "325"
+   ]
+  },
+  {
+   "id": "F3-J-SP",
+   "floor": "F3",
+   "x": 700.0,
+   "y": 250.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SP",
+   "floor": "F3",
+   "x": 700.0,
+   "y": 272.0,
+   "kind": "stair",
+   "name": "Stairs SP",
+   "group": "SP",
+   "side": "inner"
+  },
+  {
+   "id": "F3-J-SQ",
+   "floor": "F3",
+   "x": 1115.7,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SQ",
+   "floor": "F3",
+   "x": 1095.4,
+   "y": 536.2,
+   "kind": "stair",
+   "name": "Stairs SQ",
+   "group": "SQ",
+   "side": "inner"
+  },
+  {
+   "id": "F3-J-SC",
+   "floor": "F3",
+   "x": 1115.7,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SC",
+   "floor": "F3",
+   "x": 1136.1,
+   "y": 880.6,
+   "kind": "stair",
+   "name": "Stairs SC",
+   "group": "SC",
+   "side": "outer"
+  },
+  {
+   "id": "F3-J-SD",
+   "floor": "F3",
+   "x": 1018.2,
+   "y": 1018.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SD",
+   "floor": "F3",
+   "x": 1033.8,
+   "y": 1033.8,
+   "kind": "stair",
+   "name": "Stairs SD",
+   "group": "SD",
+   "side": "outer"
+  },
+  {
+   "id": "F3-J-SX",
+   "floor": "F3",
+   "x": 700.0,
+   "y": 1150.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SX",
+   "floor": "F3",
+   "x": 700.0,
+   "y": 1128.0,
+   "kind": "stair",
+   "name": "Stairs SX",
+   "group": "SX",
+   "side": "inner"
+  },
+  {
+   "id": "F3-J-SY",
+   "floor": "F3",
+   "x": 284.3,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SY",
+   "floor": "F3",
+   "x": 304.6,
+   "y": 863.8,
+   "kind": "stair",
+   "name": "Stairs SY",
+   "group": "SY",
+   "side": "inner"
+  },
+  {
+   "id": "F3-J-SA",
+   "floor": "F3",
+   "x": 284.3,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SA",
+   "floor": "F3",
+   "x": 263.9,
+   "y": 519.4,
+   "kind": "stair",
+   "name": "Stairs SA",
+   "group": "SA",
+   "side": "outer"
+  },
+  {
+   "id": "F3-J-SB",
+   "floor": "F3",
+   "x": 381.8,
+   "y": 381.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F3-SB",
+   "floor": "F3",
+   "x": 366.2,
+   "y": 366.2,
+   "kind": "stair",
+   "name": "Stairs SB",
+   "group": "SB",
+   "side": "outer"
+  },
+  {
+   "id": "F3-J-LIFT",
+   "floor": "F3",
+   "x": 1074.2,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "L3",
+   "floor": "F3",
+   "x": 1092.5,
+   "y": 962.2,
+   "kind": "lift",
+   "name": "Lift (L3)",
+   "group": "LIFT",
+   "side": "outer"
+  },
+  {
+   "id": "F4-J00",
+   "floor": "F4",
+   "x": 787.8,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-412",
+   "floor": "F4",
+   "x": 758.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "412"
+   ]
+  },
+  {
+   "id": "F4-435-436",
+   "floor": "F4",
+   "x": 808.3,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Applied Electrochemistry Lab / 2D Quantum Materials Lab",
+   "aliases": [
+    "435-436",
+    "435",
+    "436"
+   ]
+  },
+  {
+   "id": "F4-J01",
+   "floor": "F4",
+   "x": 950.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-4TH_FLOOR_HALL",
+   "floor": "F4",
+   "x": 866.7,
+   "y": 450.6,
+   "kind": "landmark",
+   "name": "4th Floor Hall",
+   "aliases": [
+    "4TH FLOOR HALL"
+   ]
+  },
+  {
+   "id": "F4-437-438",
+   "floor": "F4",
+   "x": 1008.3,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Fruits & Vegetables Technology Lab / Green Sustainable Catalysis Lab",
+   "aliases": [
+    "437-438",
+    "437",
+    "438"
+   ]
+  },
+  {
+   "id": "F4-J02",
+   "floor": "F4",
+   "x": 1074.2,
+   "y": 450.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-401",
+   "floor": "F4",
+   "x": 949.4,
+   "y": 533.3,
+   "kind": "room",
+   "name": "Board Room - CNMS",
+   "aliases": [
+    "401"
+   ]
+  },
+  {
+   "id": "F4-413-415",
+   "floor": "F4",
+   "x": 1161.5,
+   "y": 391.7,
+   "kind": "room",
+   "name": "Functional Materials and Devices Lab / Dairy Technology Lab / Organometallics Lab",
+   "aliases": [
+    "413-415",
+    "413",
+    "415"
+   ]
+  },
+  {
+   "id": "F4-J03",
+   "floor": "F4",
+   "x": 1141.4,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-402",
+   "floor": "F4",
+   "x": 994.2,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Office - CNMS",
+   "aliases": [
+    "402"
+   ]
+  },
+  {
+   "id": "F4-416-418",
+   "floor": "F4",
+   "x": 1244.3,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Functional Particles and Surfaces Lab / Low Dimensional Material Lab / Catalysis & Organic Synthesis Lab",
+   "aliases": [
+    "416-418",
+    "416",
+    "418"
+   ]
+  },
+  {
+   "id": "F4-J04",
+   "floor": "F4",
+   "x": 1141.4,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-403",
+   "floor": "F4",
+   "x": 994.2,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "403"
+   ]
+  },
+  {
+   "id": "F4-419-420",
+   "floor": "F4",
+   "x": 1244.3,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Nanomedicine Lab / Cell Culture Lab",
+   "aliases": [
+    "419-420",
+    "419",
+    "420"
+   ]
+  },
+  {
+   "id": "F4-J06",
+   "floor": "F4",
+   "x": 950.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-404",
+   "floor": "F4",
+   "x": 866.7,
+   "y": 949.4,
+   "kind": "room",
+   "name": "Director - CNMS",
+   "aliases": [
+    "404"
+   ]
+  },
+  {
+   "id": "F4-421",
+   "floor": "F4",
+   "x": 1008.3,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Nano Catalysis and Drug Molecules Lab",
+   "aliases": [
+    "421"
+   ]
+  },
+  {
+   "id": "F4-J07",
+   "floor": "F4",
+   "x": 787.8,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-405",
+   "floor": "F4",
+   "x": 758.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Faculty Room - CNMS",
+   "aliases": [
+    "405"
+   ]
+  },
+  {
+   "id": "F4-422",
+   "floor": "F4",
+   "x": 808.3,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Nano Catalysis and Drug Molecules Lab",
+   "aliases": [
+    "422"
+   ]
+  },
+  {
+   "id": "F4-J08",
+   "floor": "F4",
+   "x": 612.2,
+   "y": 1141.4,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-406",
+   "floor": "F4",
+   "x": 641.5,
+   "y": 994.2,
+   "kind": "room",
+   "name": "Faculty Room - CNMS",
+   "aliases": [
+    "406"
+   ]
+  },
+  {
+   "id": "F4-423",
+   "floor": "F4",
+   "x": 591.7,
+   "y": 1244.3,
+   "kind": "room",
+   "name": "Photo and Electro Catalysis Lab",
+   "aliases": [
+    "423"
+   ]
+  },
+  {
+   "id": "F4-J09",
+   "floor": "F4",
+   "x": 450.0,
+   "y": 1074.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-4TH_FLOOR_CORRIDOR",
+   "floor": "F4",
+   "x": 533.3,
+   "y": 949.4,
+   "kind": "landmark",
+   "name": "4th Floor Corridor",
+   "aliases": [
+    "4TH FLOOR CORRIDOR"
+   ]
+  },
+  {
+   "id": "F4-424-425",
+   "floor": "F4",
+   "x": 391.7,
+   "y": 1161.5,
+   "kind": "room",
+   "name": "Photo and Electro Catalysis Lab / Reaction Networks and Soft Materials / Organoelectronics / Organic & Medicinal Chemistry",
+   "aliases": [
+    "424-425",
+    "424",
+    "425"
+   ]
+  },
+  {
+   "id": "F4-J10",
+   "floor": "F4",
+   "x": 325.8,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-407",
+   "floor": "F4",
+   "x": 450.6,
+   "y": 866.7,
+   "kind": "room",
+   "name": "Name not listed",
+   "aliases": [
+    "407"
+   ]
+  },
+  {
+   "id": "F4-426-427",
+   "floor": "F4",
+   "x": 238.5,
+   "y": 1008.3,
+   "kind": "room",
+   "name": "Bioinorganic and Clinical Chemistry Lab / Organic and Inorganic Chemistry Lab",
+   "aliases": [
+    "426-427",
+    "426",
+    "427"
+   ]
+  },
+  {
+   "id": "F4-J11",
+   "floor": "F4",
+   "x": 258.6,
+   "y": 787.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-408",
+   "floor": "F4",
+   "x": 405.8,
+   "y": 758.5,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "408"
+   ]
+  },
+  {
+   "id": "F4-428-429",
+   "floor": "F4",
+   "x": 155.7,
+   "y": 808.3,
+   "kind": "room",
+   "name": "Physical Chemistry Lab / Sustainable Energy Materials and Processes Lab",
+   "aliases": [
+    "428-429",
+    "428",
+    "429"
+   ]
+  },
+  {
+   "id": "F4-J12",
+   "floor": "F4",
+   "x": 258.6,
+   "y": 612.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-409",
+   "floor": "F4",
+   "x": 405.8,
+   "y": 641.5,
+   "kind": "room",
+   "name": "Faculty Room - CNMS",
+   "aliases": [
+    "409"
+   ]
+  },
+  {
+   "id": "F4-430",
+   "floor": "F4",
+   "x": 155.7,
+   "y": 591.7,
+   "kind": "room",
+   "name": "Carbene Chemistry Lab",
+   "aliases": [
+    "430"
+   ]
+  },
+  {
+   "id": "F4-J14",
+   "floor": "F4",
+   "x": 450.0,
+   "y": 325.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-410",
+   "floor": "F4",
+   "x": 533.3,
+   "y": 450.6,
+   "kind": "room",
+   "name": "Computational Materials and Computational Molecular Modeling Lab",
+   "aliases": [
+    "410"
+   ]
+  },
+  {
+   "id": "F4-431-432",
+   "floor": "F4",
+   "x": 391.7,
+   "y": 238.5,
+   "kind": "room",
+   "name": "Faculty Room - CNMS",
+   "aliases": [
+    "431-432",
+    "431",
+    "432"
+   ]
+  },
+  {
+   "id": "F4-J15",
+   "floor": "F4",
+   "x": 612.2,
+   "y": 258.6,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-411",
+   "floor": "F4",
+   "x": 641.5,
+   "y": 405.8,
+   "kind": "room",
+   "name": "Lecture Hall",
+   "aliases": [
+    "411"
+   ]
+  },
+  {
+   "id": "F4-433-434",
+   "floor": "F4",
+   "x": 591.7,
+   "y": 155.7,
+   "kind": "room",
+   "name": "Faculty Room - CNMS / HoD & Faculty Room - Food Technology",
+   "aliases": [
+    "433-434",
+    "433",
+    "434"
+   ]
+  },
+  {
+   "id": "F4-J-SP",
+   "floor": "F4",
+   "x": 700.0,
+   "y": 250.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SP",
+   "floor": "F4",
+   "x": 700.0,
+   "y": 272.0,
+   "kind": "stair",
+   "name": "Stairs SP",
+   "group": "SP",
+   "side": "inner"
+  },
+  {
+   "id": "F4-J-SQ",
+   "floor": "F4",
+   "x": 1115.7,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SQ",
+   "floor": "F4",
+   "x": 1095.4,
+   "y": 536.2,
+   "kind": "stair",
+   "name": "Stairs SQ",
+   "group": "SQ",
+   "side": "inner"
+  },
+  {
+   "id": "F4-J-SC",
+   "floor": "F4",
+   "x": 1115.7,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SC",
+   "floor": "F4",
+   "x": 1136.1,
+   "y": 880.6,
+   "kind": "stair",
+   "name": "Stairs SC",
+   "group": "SC",
+   "side": "outer"
+  },
+  {
+   "id": "F4-J-SD",
+   "floor": "F4",
+   "x": 1018.2,
+   "y": 1018.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SD",
+   "floor": "F4",
+   "x": 1033.8,
+   "y": 1033.8,
+   "kind": "stair",
+   "name": "Stairs SD",
+   "group": "SD",
+   "side": "outer"
+  },
+  {
+   "id": "F4-J-SX",
+   "floor": "F4",
+   "x": 700.0,
+   "y": 1150.0,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SX",
+   "floor": "F4",
+   "x": 700.0,
+   "y": 1128.0,
+   "kind": "stair",
+   "name": "Stairs SX",
+   "group": "SX",
+   "side": "inner"
+  },
+  {
+   "id": "F4-J-SY",
+   "floor": "F4",
+   "x": 284.3,
+   "y": 872.2,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SY",
+   "floor": "F4",
+   "x": 304.6,
+   "y": 863.8,
+   "kind": "stair",
+   "name": "Stairs SY",
+   "group": "SY",
+   "side": "inner"
+  },
+  {
+   "id": "F4-J-SA",
+   "floor": "F4",
+   "x": 284.3,
+   "y": 527.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SA",
+   "floor": "F4",
+   "x": 263.9,
+   "y": 519.4,
+   "kind": "stair",
+   "name": "Stairs SA",
+   "group": "SA",
+   "side": "outer"
+  },
+  {
+   "id": "F4-J-SB",
+   "floor": "F4",
+   "x": 381.8,
+   "y": 381.8,
+   "kind": "junction"
+  },
+  {
+   "id": "F4-SB",
+   "floor": "F4",
+   "x": 366.2,
+   "y": 366.2,
+   "kind": "stair",
+   "name": "Stairs SB",
+   "group": "SB",
+   "side": "outer"
+  },
+  {
+   "id": "F4-J-LIFT",
+   "floor": "F4",
+   "x": 1074.2,
+   "y": 950.0,
+   "kind": "junction"
+  },
+  {
+   "id": "L4",
+   "floor": "F4",
+   "x": 1092.5,
+   "y": 962.2,
+   "kind": "lift",
+   "name": "Lift (L4)",
+   "group": "LIFT",
+   "side": "outer"
+  }
+ ],
+ "edges": [
+  {
+   "a": "F0-008",
+   "b": "F0-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F0-013",
+   "b": "F0-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F0-SOFA_HALL",
+   "b": "F0-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F0-001",
+   "b": "F0-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F0-007",
+   "b": "F0-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F0-002",
+   "b": "F0-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F0-006",
+   "b": "F0-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F0-003",
+   "b": "F0-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F0-005",
+   "b": "F0-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F0-004",
+   "b": "F0-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F0-010",
+   "b": "F0-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F0-011",
+   "b": "F0-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F0-009",
+   "b": "F0-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F0-012",
+   "b": "F0-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F0-J-SP",
+   "b": "F0-SP",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SQ",
+   "b": "F0-SQ",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SC",
+   "b": "F0-SC",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SD",
+   "b": "F0-SD",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SA",
+   "b": "F0-SA",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SB",
+   "b": "F0-SB",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-LIFT",
+   "b": "LG",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F0-J-SA",
+   "b": "F0-J-SB",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J-SB",
+   "b": "F0-J14",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J14",
+   "b": "F0-J15",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J15",
+   "b": "F0-J-SP",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J-SP",
+   "b": "F0-J00",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J00",
+   "b": "F0-J01",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J01",
+   "b": "F0-J02",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J02",
+   "b": "F0-J-SQ",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J-SQ",
+   "b": "F0-J03",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J03",
+   "b": "F0-J04",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J04",
+   "b": "F0-J-SC",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J-SC",
+   "b": "F0-J-LIFT",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-J-LIFT",
+   "b": "F0-J-SD",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-112",
+   "b": "F1-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F1-126",
+   "b": "F1-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F1-1ST_FLOOR_HALL",
+   "b": "F1-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F1-127",
+   "b": "F1-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F1-101",
+   "b": "F1-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F1-113",
+   "b": "F1-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F1-102",
+   "b": "F1-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F1-114",
+   "b": "F1-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F1-103",
+   "b": "F1-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F1-115",
+   "b": "F1-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F1-104",
+   "b": "F1-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F1-116",
+   "b": "F1-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F1-105",
+   "b": "F1-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F1-117",
+   "b": "F1-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F1-106",
+   "b": "F1-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F1-118",
+   "b": "F1-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F1-1ST_FLOOR_CORRIDOR",
+   "b": "F1-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F1-119+120",
+   "b": "F1-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F1-107",
+   "b": "F1-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F1-121",
+   "b": "F1-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F1-108",
+   "b": "F1-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F1-122",
+   "b": "F1-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F1-109",
+   "b": "F1-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F1-123",
+   "b": "F1-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F1-110",
+   "b": "F1-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F1-124",
+   "b": "F1-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F1-111",
+   "b": "F1-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F1-125",
+   "b": "F1-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F1-J-SP",
+   "b": "F1-SP",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SQ",
+   "b": "F1-SQ",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SC",
+   "b": "F1-SC",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SD",
+   "b": "F1-SD",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SX",
+   "b": "F1-SX",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SY",
+   "b": "F1-SY",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SA",
+   "b": "F1-SA",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SB",
+   "b": "F1-SB",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-LIFT",
+   "b": "L1",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F1-J-SP",
+   "b": "F1-J00",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J00",
+   "b": "F1-J01",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J01",
+   "b": "F1-J02",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J02",
+   "b": "F1-J-SQ",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SQ",
+   "b": "F1-J03",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J03",
+   "b": "F1-J04",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J04",
+   "b": "F1-J-SC",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SC",
+   "b": "F1-J-LIFT",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-LIFT",
+   "b": "F1-J-SD",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SD",
+   "b": "F1-J06",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J06",
+   "b": "F1-J07",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J07",
+   "b": "F1-J-SX",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SX",
+   "b": "F1-J08",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J08",
+   "b": "F1-J09",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J09",
+   "b": "F1-J10",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J10",
+   "b": "F1-J-SY",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SY",
+   "b": "F1-J11",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J11",
+   "b": "F1-J12",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J12",
+   "b": "F1-J-SA",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SA",
+   "b": "F1-J-SB",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J-SB",
+   "b": "F1-J14",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J14",
+   "b": "F1-J15",
+   "kind": "corridor"
+  },
+  {
+   "a": "F1-J15",
+   "b": "F1-J-SP",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-212",
+   "b": "F2-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F2-226",
+   "b": "F2-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F2-2ND_FLOOR_HALL",
+   "b": "F2-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F2-227",
+   "b": "F2-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F2-201",
+   "b": "F2-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F2-213",
+   "b": "F2-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F2-202",
+   "b": "F2-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F2-214A/B/C",
+   "b": "F2-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F2-203",
+   "b": "F2-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F2-215A/B/C",
+   "b": "F2-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F2-204",
+   "b": "F2-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F2-216A/B",
+   "b": "F2-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F2-205",
+   "b": "F2-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F2-217A/B",
+   "b": "F2-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F2-206",
+   "b": "F2-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F2-219A/B/C",
+   "b": "F2-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F2-LIBRARY_CORRIDOR",
+   "b": "F2-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F2-LIBRARY_2ND_FLOOR",
+   "b": "F2-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F2-207",
+   "b": "F2-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F2-221",
+   "b": "F2-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F2-208",
+   "b": "F2-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F2-222",
+   "b": "F2-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F2-209",
+   "b": "F2-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F2-223",
+   "b": "F2-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F2-210",
+   "b": "F2-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F2-224A/B",
+   "b": "F2-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F2-211",
+   "b": "F2-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F2-225A/B",
+   "b": "F2-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F2-J-SP",
+   "b": "F2-SP",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SQ",
+   "b": "F2-SQ",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SC",
+   "b": "F2-SC",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SD",
+   "b": "F2-SD",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SX",
+   "b": "F2-SX",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SY",
+   "b": "F2-SY",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SA",
+   "b": "F2-SA",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SB",
+   "b": "F2-SB",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-LIFT",
+   "b": "L2",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F2-J-SP",
+   "b": "F2-J00",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J00",
+   "b": "F2-J01",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J01",
+   "b": "F2-J02",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J02",
+   "b": "F2-J-SQ",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SQ",
+   "b": "F2-J03",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J03",
+   "b": "F2-J04",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J04",
+   "b": "F2-J-SC",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SC",
+   "b": "F2-J-LIFT",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-LIFT",
+   "b": "F2-J-SD",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SD",
+   "b": "F2-J06",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J06",
+   "b": "F2-J07",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J07",
+   "b": "F2-J-SX",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SX",
+   "b": "F2-J08",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J08",
+   "b": "F2-J09",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J09",
+   "b": "F2-J10",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J10",
+   "b": "F2-J-SY",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SY",
+   "b": "F2-J11",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J11",
+   "b": "F2-J12",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J12",
+   "b": "F2-J-SA",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SA",
+   "b": "F2-J-SB",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J-SB",
+   "b": "F2-J14",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J14",
+   "b": "F2-J15",
+   "kind": "corridor"
+  },
+  {
+   "a": "F2-J15",
+   "b": "F2-J-SP",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-312",
+   "b": "F3-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F3-326A/B",
+   "b": "F3-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F3-3RD_FLOOR_HALL",
+   "b": "F3-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F3-327A/B",
+   "b": "F3-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F3-301",
+   "b": "F3-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F3-313A/B",
+   "b": "F3-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F3-302",
+   "b": "F3-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F3-314A/B",
+   "b": "F3-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F3-303",
+   "b": "F3-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F3-315A/B",
+   "b": "F3-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F3-304",
+   "b": "F3-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F3-316A/B",
+   "b": "F3-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F3-305",
+   "b": "F3-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F3-317A/B",
+   "b": "F3-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F3-306",
+   "b": "F3-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F3-318A/B",
+   "b": "F3-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F3-LIB_SEATING_HALL",
+   "b": "F3-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F3-LIBRARY_3RD_FLOOR",
+   "b": "F3-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F3-307",
+   "b": "F3-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F3-321",
+   "b": "F3-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F3-308",
+   "b": "F3-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F3-322A/B/C",
+   "b": "F3-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F3-309",
+   "b": "F3-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F3-323",
+   "b": "F3-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F3-310",
+   "b": "F3-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F3-324A/B",
+   "b": "F3-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F3-311",
+   "b": "F3-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F3-325",
+   "b": "F3-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F3-J-SP",
+   "b": "F3-SP",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SQ",
+   "b": "F3-SQ",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SC",
+   "b": "F3-SC",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SD",
+   "b": "F3-SD",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SX",
+   "b": "F3-SX",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SY",
+   "b": "F3-SY",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SA",
+   "b": "F3-SA",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SB",
+   "b": "F3-SB",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-LIFT",
+   "b": "L3",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F3-J-SP",
+   "b": "F3-J00",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J00",
+   "b": "F3-J01",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J01",
+   "b": "F3-J02",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J02",
+   "b": "F3-J-SQ",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SQ",
+   "b": "F3-J03",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J03",
+   "b": "F3-J04",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J04",
+   "b": "F3-J-SC",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SC",
+   "b": "F3-J-LIFT",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-LIFT",
+   "b": "F3-J-SD",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SD",
+   "b": "F3-J06",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J06",
+   "b": "F3-J07",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J07",
+   "b": "F3-J-SX",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SX",
+   "b": "F3-J08",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J08",
+   "b": "F3-J09",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J09",
+   "b": "F3-J10",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J10",
+   "b": "F3-J-SY",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SY",
+   "b": "F3-J11",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J11",
+   "b": "F3-J12",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J12",
+   "b": "F3-J-SA",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SA",
+   "b": "F3-J-SB",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J-SB",
+   "b": "F3-J14",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J14",
+   "b": "F3-J15",
+   "kind": "corridor"
+  },
+  {
+   "a": "F3-J15",
+   "b": "F3-J-SP",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-412",
+   "b": "F4-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F4-435-436",
+   "b": "F4-J00",
+   "kind": "door"
+  },
+  {
+   "a": "F4-4TH_FLOOR_HALL",
+   "b": "F4-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F4-437-438",
+   "b": "F4-J01",
+   "kind": "door"
+  },
+  {
+   "a": "F4-401",
+   "b": "F4-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F4-413-415",
+   "b": "F4-J02",
+   "kind": "door"
+  },
+  {
+   "a": "F4-402",
+   "b": "F4-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F4-416-418",
+   "b": "F4-J03",
+   "kind": "door"
+  },
+  {
+   "a": "F4-403",
+   "b": "F4-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F4-419-420",
+   "b": "F4-J04",
+   "kind": "door"
+  },
+  {
+   "a": "F4-404",
+   "b": "F4-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F4-421",
+   "b": "F4-J06",
+   "kind": "door"
+  },
+  {
+   "a": "F4-405",
+   "b": "F4-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F4-422",
+   "b": "F4-J07",
+   "kind": "door"
+  },
+  {
+   "a": "F4-406",
+   "b": "F4-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F4-423",
+   "b": "F4-J08",
+   "kind": "door"
+  },
+  {
+   "a": "F4-4TH_FLOOR_CORRIDOR",
+   "b": "F4-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F4-424-425",
+   "b": "F4-J09",
+   "kind": "door"
+  },
+  {
+   "a": "F4-407",
+   "b": "F4-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F4-426-427",
+   "b": "F4-J10",
+   "kind": "door"
+  },
+  {
+   "a": "F4-408",
+   "b": "F4-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F4-428-429",
+   "b": "F4-J11",
+   "kind": "door"
+  },
+  {
+   "a": "F4-409",
+   "b": "F4-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F4-430",
+   "b": "F4-J12",
+   "kind": "door"
+  },
+  {
+   "a": "F4-410",
+   "b": "F4-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F4-431-432",
+   "b": "F4-J14",
+   "kind": "door"
+  },
+  {
+   "a": "F4-411",
+   "b": "F4-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F4-433-434",
+   "b": "F4-J15",
+   "kind": "door"
+  },
+  {
+   "a": "F4-J-SP",
+   "b": "F4-SP",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SQ",
+   "b": "F4-SQ",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SC",
+   "b": "F4-SC",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SD",
+   "b": "F4-SD",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SX",
+   "b": "F4-SX",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SY",
+   "b": "F4-SY",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SA",
+   "b": "F4-SA",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SB",
+   "b": "F4-SB",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-LIFT",
+   "b": "L4",
+   "kind": "stairmouth"
+  },
+  {
+   "a": "F4-J-SP",
+   "b": "F4-J00",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J00",
+   "b": "F4-J01",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J01",
+   "b": "F4-J02",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J02",
+   "b": "F4-J-SQ",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SQ",
+   "b": "F4-J03",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J03",
+   "b": "F4-J04",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J04",
+   "b": "F4-J-SC",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SC",
+   "b": "F4-J-LIFT",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-LIFT",
+   "b": "F4-J-SD",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SD",
+   "b": "F4-J06",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J06",
+   "b": "F4-J07",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J07",
+   "b": "F4-J-SX",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SX",
+   "b": "F4-J08",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J08",
+   "b": "F4-J09",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J09",
+   "b": "F4-J10",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J10",
+   "b": "F4-J-SY",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SY",
+   "b": "F4-J11",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J11",
+   "b": "F4-J12",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J12",
+   "b": "F4-J-SA",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SA",
+   "b": "F4-J-SB",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J-SB",
+   "b": "F4-J14",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J14",
+   "b": "F4-J15",
+   "kind": "corridor"
+  },
+  {
+   "a": "F4-J15",
+   "b": "F4-J-SP",
+   "kind": "corridor"
+  },
+  {
+   "a": "F0-SP",
+   "b": "F1-SP",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SP",
+   "b": "F2-SP",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SP",
+   "b": "F3-SP",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SP",
+   "b": "F4-SP",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F0-SQ",
+   "b": "F1-SQ",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SQ",
+   "b": "F2-SQ",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SQ",
+   "b": "F3-SQ",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SQ",
+   "b": "F4-SQ",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F0-SC",
+   "b": "F1-SC",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SC",
+   "b": "F2-SC",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SC",
+   "b": "F3-SC",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SC",
+   "b": "F4-SC",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F0-SD",
+   "b": "F1-SD",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SD",
+   "b": "F2-SD",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SD",
+   "b": "F3-SD",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SD",
+   "b": "F4-SD",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SX",
+   "b": "F2-SX",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SX",
+   "b": "F3-SX",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SX",
+   "b": "F4-SX",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SY",
+   "b": "F2-SY",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SY",
+   "b": "F3-SY",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SY",
+   "b": "F4-SY",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F0-SA",
+   "b": "F1-SA",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SA",
+   "b": "F2-SA",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SA",
+   "b": "F3-SA",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SA",
+   "b": "F4-SA",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F0-SB",
+   "b": "F1-SB",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F1-SB",
+   "b": "F2-SB",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F2-SB",
+   "b": "F3-SB",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "F3-SB",
+   "b": "F4-SB",
+   "kind": "stairs",
+   "step_free": false
+  },
+  {
+   "a": "LG",
+   "b": "L1",
+   "kind": "lift",
+   "step_free": true
+  },
+  {
+   "a": "L1",
+   "b": "L2",
+   "kind": "lift",
+   "step_free": true
+  },
+  {
+   "a": "L2",
+   "b": "L3",
+   "kind": "lift",
+   "step_free": true
+  },
+  {
+   "a": "L3",
+   "b": "L4",
+   "kind": "lift",
+   "step_free": true
+  }
+ ]
+}
