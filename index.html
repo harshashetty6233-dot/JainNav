@@ -237,6 +237,77 @@ input:focus { border-color: var(--accent-yellow); }
   display: inline-block; width: 10px; height: 20px; background: #fff;
   animation: blink 0.8s infinite; vertical-align: middle;
 }
+
+/* ---- Info button + popup ---- */
+.info-btn {
+  position: fixed;
+  top: calc(12px + env(safe-area-inset-top));
+  right: calc(12px + env(safe-area-inset-right));
+  width: 40px; height: 40px; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  background-color: var(--accent-orange);
+  color: #000;
+  border: 3px solid #000;
+  box-shadow: inset -3px -3px 0px 0px #cc6600, inset 3px 3px 0px 0px #ffaa44;
+  cursor: pointer;
+  z-index: 50;
+}
+.info-btn:hover { background-color: #ff9933; }
+.info-btn:active {
+  transform: translateY(2px);
+  box-shadow: inset 3px 3px 0px 0px #cc6600, inset -3px -3px 0px 0px #ffaa44;
+}
+.info-btn:focus-visible { outline: 2px solid var(--accent-yellow); outline-offset: 2px; }
+
+.info-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 900;
+  background: rgba(0, 0, 0, 0.82);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.info-overlay.hidden { display: none; }
+.info-box {
+  position: relative;
+  width: 100%; max-width: 480px; max-height: 85vh; overflow-y: auto;
+  background: var(--card-bg);
+  border: 4px solid var(--accent-yellow);
+  padding: 34px 26px 26px;
+}
+.info-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--accent-yellow);
+  text-align: center;
+  margin-bottom: 18px; padding-bottom: 12px;
+  border-bottom: 2px dashed var(--border-color);
+}
+.info-text { font-size: 1.5rem; line-height: 1.25; color: #fff; margin-bottom: 22px; }
+.info-link {
+  display: block;
+  text-align: center;
+  word-break: break-all;
+  font-family: var(--font-display);
+  font-size: 0.6rem; line-height: 1.7;
+  color: #000;
+  background-color: var(--accent-orange);
+  padding: 14px 10px;
+  border: 4px solid #000;
+  box-shadow: inset -4px -4px 0px 0px #cc6600, inset 4px 4px 0px 0px #ffaa44;
+  text-decoration: none;
+}
+.info-link:hover { background-color: #ff9933; }
+.info-close {
+  position: absolute; top: 8px; right: 8px;
+  width: 32px; height: 32px; padding: 0;
+  background: #000; color: #888;
+  border: 2px solid var(--border-color);
+  font-family: var(--font-display); font-size: 0.8rem;
+  cursor: pointer;
+}
+.info-close:hover { color: var(--accent-red); border-color: var(--accent-red); }
 </style>
 </head>
 <body>
@@ -721,6 +792,33 @@ async function start() {
 }
 
 start();
+</script>
+
+<button id="info-btn" class="info-btn" type="button" aria-label="About this project" aria-haspopup="dialog">i</button>
+
+<div id="info-overlay" class="info-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="info-title">
+  <div class="info-box">
+    <button id="info-close" class="info-close" type="button" aria-label="Close">X</button>
+    <h2 id="info-title" class="info-title">INFO</h2>
+    <p class="info-text">Hey if this site felt useful or fascinating for you give a Star on my github repository JainNav; as it is a opensource project you can commit changes so that the site can be improved THANK YOU!</p>
+    <a class="info-link" href="https://github.com/harshashetty6233-dot/JainNav" target="_blank" rel="noopener noreferrer">github.com/harshashetty6233-dot/JainNav</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('info-btn');
+  var overlay = document.getElementById('info-overlay');
+  var closeBtn = document.getElementById('info-close');
+  function openInfo() { overlay.classList.remove('hidden'); closeBtn.focus(); }
+  function closeInfo() { overlay.classList.add('hidden'); btn.focus(); }
+  btn.addEventListener('click', openInfo);
+  closeBtn.addEventListener('click', closeInfo);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) closeInfo(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !overlay.classList.contains('hidden')) closeInfo();
+  });
+})();
 </script>
 </body>
 </html>
