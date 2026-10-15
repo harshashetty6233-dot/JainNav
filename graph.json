@@ -374,12 +374,12 @@
   {
    "id": "LG",
    "floor": "F0",
-   "x": 1092.5,
-   "y": 962.2,
+   "x": 1055.9,
+   "y": 937.8,
    "kind": "lift",
    "name": "Lift (LG)",
    "group": "LIFT",
-   "side": "outer"
+   "side": "inner"
   },
   {
    "id": "F1-J00",
@@ -935,12 +935,12 @@
   {
    "id": "L1",
    "floor": "F1",
-   "x": 1092.5,
-   "y": 962.2,
+   "x": 1055.9,
+   "y": 937.8,
    "kind": "lift",
    "name": "Lift (L1)",
    "group": "LIFT",
-   "side": "outer"
+   "side": "inner"
   },
   {
    "id": "F2-J00",
@@ -1518,12 +1518,12 @@
   {
    "id": "L2",
    "floor": "F2",
-   "x": 1092.5,
-   "y": 962.2,
+   "x": 1055.9,
+   "y": 937.8,
    "kind": "lift",
    "name": "Lift (L2)",
    "group": "LIFT",
-   "side": "outer"
+   "side": "inner"
   },
   {
    "id": "F3-J00",
@@ -2108,12 +2108,12 @@
   {
    "id": "L3",
    "floor": "F3",
-   "x": 1092.5,
-   "y": 962.2,
+   "x": 1055.9,
+   "y": 937.8,
    "kind": "lift",
    "name": "Lift (L3)",
    "group": "LIFT",
-   "side": "outer"
+   "side": "inner"
   },
   {
    "id": "F4-J00",
@@ -2687,12 +2687,12 @@
   {
    "id": "L4",
    "floor": "F4",
-   "x": 1092.5,
-   "y": 962.2,
+   "x": 1055.9,
+   "y": 937.8,
    "kind": "lift",
    "name": "Lift (L4)",
    "group": "LIFT",
-   "side": "outer"
+   "side": "inner"
   }
  ],
  "edges": [

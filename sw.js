@@ -5,7 +5,7 @@
  * already installed the app will keep serving the old map forever.
  */
 
-const CACHE = 'jainnav-v3';
+const CACHE = 'jainnav-v4';
 
 const FILES = [
   './',
